@@ -1,0 +1,87 @@
+body { 
+    font-size: 16px;
+    color: #141313;
+    background-color: #f1f1f1;
+    font-family: 'Balsamiq Sans', cursive, sans-serif;
+    
+}
+
+#header-nav {
+    background-color: rgb(158, 148, 148);
+    border-radius: 0;
+    border: 0;
+    border: 3px solid black;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 32px;
+    color:  #141313;
+}
+
+
+
+.menu h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    border-color: #141313;
+    border-style: solid;
+    border: 1px;
+
+}
+
+#nav-list-items a {
+    text-align: center;
+    color: #141313;
+    border-top: 2px solid #141313;
+    border-left: 3px solid #141313;
+    border-right: 3px solid #141313;
+    border-bottom: 2px solid #141313;
+    margin: 0;
+}
+
+#nav-list-items li:nth-child(3) a {
+    text-align: center;
+    color: #141313;
+    border-top: 2px solid #141313;
+    border-left: 3px solid #141313;
+    border-right: 3px solid #141313;
+    border-bottom: 4px solid #141313;
+    margin: 0;
+}
+
+
+#nav-list-items a:hover {
+    border-color: 2px solid black;
+    background: #fff;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+
+#main-content .card {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(158, 148, 148);
+    margin: 40px auto;
+}
+
+#main-content .card p {
+    padding: 0 20px;
+}
